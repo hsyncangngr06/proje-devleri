@@ -1,0 +1,11 @@
+C:\Users\H.CAN\Desktop\HÜSEYİN GÜNGÖR\Wpf_Hesap_Makinesi\Hesap_Makinesi\Hesap_Makinesi\bin\Debug\Hesap_Makinesi.exe.config
+C:\Users\H.CAN\Desktop\HÜSEYİN GÜNGÖR\Wpf_Hesap_Makinesi\Hesap_Makinesi\Hesap_Makinesi\bin\Debug\Hesap_Makinesi.exe
+C:\Users\H.CAN\Desktop\HÜSEYİN GÜNGÖR\Wpf_Hesap_Makinesi\Hesap_Makinesi\Hesap_Makinesi\bin\Debug\Hesap_Makinesi.pdb
+C:\Users\H.CAN\Desktop\HÜSEYİN GÜNGÖR\Wpf_Hesap_Makinesi\Hesap_Makinesi\Hesap_Makinesi\obj\Debug\Hesap_Makinesi.csproj.AssemblyReference.cache
+C:\Users\H.CAN\Desktop\HÜSEYİN GÜNGÖR\Wpf_Hesap_Makinesi\Hesap_Makinesi\Hesap_Makinesi\obj\Debug\Hesap_Makinesi.csproj.SuggestedBindingRedirects.cache
+C:\Users\H.CAN\Desktop\HÜSEYİN GÜNGÖR\Wpf_Hesap_Makinesi\Hesap_Makinesi\Hesap_Makinesi\obj\Debug\Hesap_Makinesi.Form1.resources
+C:\Users\H.CAN\Desktop\HÜSEYİN GÜNGÖR\Wpf_Hesap_Makinesi\Hesap_Makinesi\Hesap_Makinesi\obj\Debug\Hesap_Makinesi.Properties.Resources.resources
+C:\Users\H.CAN\Desktop\HÜSEYİN GÜNGÖR\Wpf_Hesap_Makinesi\Hesap_Makinesi\Hesap_Makinesi\obj\Debug\Hesap_Makinesi.csproj.GenerateResource.cache
+C:\Users\H.CAN\Desktop\HÜSEYİN GÜNGÖR\Wpf_Hesap_Makinesi\Hesap_Makinesi\Hesap_Makinesi\obj\Debug\Hesap_Makinesi.csproj.CoreCompileInputs.cache
+C:\Users\H.CAN\Desktop\HÜSEYİN GÜNGÖR\Wpf_Hesap_Makinesi\Hesap_Makinesi\Hesap_Makinesi\obj\Debug\Hesap_Makinesi.exe
+C:\Users\H.CAN\Desktop\HÜSEYİN GÜNGÖR\Wpf_Hesap_Makinesi\Hesap_Makinesi\Hesap_Makinesi\obj\Debug\Hesap_Makinesi.pdb

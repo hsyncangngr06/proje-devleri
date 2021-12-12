@@ -1,0 +1,63 @@
+﻿@model Mvc_Ogrenci_Kayıt.Models.Table
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Öğrenci Silme</h2>
+
+<h3>Gerçekten Silmek İstiyor musunuz?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.OgrenciAd)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OgrenciAd)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OgrenciSoyad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OgrenciSoyad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OgrenciMail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OgrenciMail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OgrenciFotograf)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OgrenciFotograf)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OgrenciAdres)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OgrenciAdres)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-danger" /> |
+            @Html.ActionLink("Öğrenci Listesi", "Index")
+        </div>
+    }
+</div>

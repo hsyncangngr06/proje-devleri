@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Mvc_Ogrenci_Kayıt.Models.Table>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3>ÖĞRENCİ KAYIT LİSTESİ</h3>
+
+<p>
+    @Html.ActionLink("Yeni Kayıt", "Create")
+</p>
+<table class="table">
+    <tr>+
+        <th>
+            @Html.DisplayNameFor(model => model.OgrenciAd)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OgrenciSoyad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OgrenciMail)
+        </th>        
+        <th>
+            @Html.DisplayNameFor(model => model.OgrenciAdres)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.OgrenciAd)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OgrenciSoyad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OgrenciMail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OgrenciAdres)
+        </td>
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", new { id = item.OgrenciID_ }, new { @class = "btn btn-success" })
+         
+            @Html.ActionLink("Detaylar", "Details", new { id = item.OgrenciID_ }, new { @class = "btn btn-primary" }) 
+            @Html.ActionLink("Sil", "Delete", new { id = item.OgrenciID_ }, new { @class = "btn btn-danger" }) 
+        </td>
+    </tr>
+}
+
+</table>
